@@ -1,0 +1,9 @@
+<nav *ngIf="user">
+    <div>
+        <h2>Products List</h2>
+    </div>
+    <div class="navbar-nav">
+        <button class="button" (click)="logout()">Logout</button>
+    </div>
+</nav>
+<router-outlet></router-outlet>

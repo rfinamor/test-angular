@@ -1,0 +1,66 @@
+.table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table{
+    min-width: 80%;
+}
+
+.button-open{
+    width: 80px;
+    height: 40px;
+    padding: 5px;
+    color:white;
+    font-weight: 500;
+    font-size: 15px;
+    background-color: #228358;
+    border-radius: 10px;
+    border:none;
+    cursor: pointer;
+}
+
+select{
+    margin-left:5px;
+    height: 25px;
+    background-color: #e8e9eb;
+    font-size: 15px;
+    font-weight: 550;
+}
+
+.filters{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 4px; 
+    margin: 0 10% 0 10%; 
+    width: 40%; 
+    height: 70px; 
+    background-color: white;
+    margin-bottom: 40px;
+}
+
+.modal-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.price{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.btn-close{
+    background-color: #228358;
+}
+
+.modal-header{
+    border-bottom: 1px solid rgba(0,0,0,.2);
+}

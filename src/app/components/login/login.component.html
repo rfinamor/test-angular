@@ -1,0 +1,15 @@
+<div class="container">
+    <h3>Login Form</h3>
+    <h5 class="mt-4">Angular Demo</h5>
+    <form [formGroup]="loginForm" (ngSubmit)="onSubmit()" class="container-form mt-4">
+        <img class="image" alt="" width="310px" height="250px">
+        <input type="email" formControlName="user" placeholder="Email">
+        <input type="password" formControlName="password" placeholder="Password">
+        <div *ngIf="loginErrorMsg">
+            <p class="alert alert-danger">{{loginErrorMsg}}</p>
+        </div>
+        <button [disabled]="loading"><span *ngIf="loading" class="spinner-border spinner-border-sm mr-1"></span>
+            Login</button>
+        <label>user: <span>user@demo.com </span>pass: <span>123456</span></label>
+    </form>
+</div>
